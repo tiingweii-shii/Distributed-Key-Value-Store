@@ -398,7 +398,7 @@ class Simulation:
         self.partition = None
                 
         # Load the config file
-        self.conf = Config(filename)
+        self.conf = Config('tests/' + filename)
         #self.conf.dump()
         
         # Create the clients

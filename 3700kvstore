@@ -352,8 +352,7 @@ def update_commitIdx():
 
 while True:
     process_msg()
-    #print("LOG:  ")
-    #print(log)
+    #print("LOG:", log)
     # Apply messages to the state machine which have been committed
     while lastApplied < commitIndex:
         lastApplied += 1
