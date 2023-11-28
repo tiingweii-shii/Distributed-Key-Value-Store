@@ -1,0 +1,14 @@
+{
+    "lifetime": 30,
+    "replicas": 5,
+    "requests": 500,
+    "mix" : 0.8,
+    "tests" : {
+        "benchmarks" : {
+            "total_msgs"     : [1200, 3000, 5000],
+            "failures"       : [0, 1, 2],
+            "duplicates"     : [0, 2, 5],
+            "median_latency" : [0.0004, 0.002, 0.05]
+        }
+    }
+}

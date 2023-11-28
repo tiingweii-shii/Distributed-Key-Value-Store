@@ -1,0 +1,15 @@
+{
+    "lifetime": 30,
+    "replicas": 5,
+    "requests": 400,
+    "mix" : 0.2,
+    "events" : [{"type": "kill_leader", "time": 10}],
+    "tests" : {
+        "benchmarks" : {
+            "total_msgs"     : [2000, 4000, 5000],
+            "failures"       : [0, 2, 5],
+            "duplicates"     : [0, 2, 10],
+            "median_latency" : [0.0002, 0.005, 0.05]
+        }
+    }
+}

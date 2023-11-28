@@ -1,0 +1,16 @@
+{
+    "lifetime": 30,
+    "replicas": 5,
+    "requests": 400,
+    "mix" : 0.2,
+    "events" : [{"type": "part_hard", "time": 5},
+	        {"type": "part_end", "time": 10}],
+    "tests" : {
+        "benchmarks" : {
+            "total_msgs"     : [2200, 4000, 5000],
+            "failures"       : [0, 10, 30],
+            "duplicates"     : [0, 2, 5],
+            "median_latency" : [0.00025, 0.005, 0.05]
+        }
+    }
+}
