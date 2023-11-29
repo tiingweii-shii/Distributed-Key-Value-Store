@@ -10,7 +10,7 @@ This project implements a distributed, replicated key-value store using a simpli
 - **Efficient Performance**: Evaluated and optimized system performance in a simulation environment, achieving :
     - 30% reduction in total message counts
     - 99% success rate for client queries
-    - less than 0.05 median response latency under all senarios
+    - less than 0.005 median response latency under all senarios
 - **Robust Testing**: Extensively tested the system under various scenarios, including network partitions, message drops, and leader failures, to ensure robust performance.
 
 ### Getting Started
